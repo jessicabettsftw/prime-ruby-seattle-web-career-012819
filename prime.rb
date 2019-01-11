@@ -1,4 +1,4 @@
-prime?(6)
+boolean = prime?(6)
 
 def prime?(num)
   
