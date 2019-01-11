@@ -9,7 +9,7 @@ def prime?(num)
       test_numbers.push(start)
       start += 1
     end
-    puts test_numbers.inspect
+    #puts test_numbers.inspect
     #loop through test numbers array to see if prime
     test_numbers.each do |test_num|
       if (num % test_num) == 0
