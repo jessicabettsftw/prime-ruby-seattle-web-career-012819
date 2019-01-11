@@ -11,7 +11,7 @@ def prime?(num)
     start = 2
     while start < (mid + 1)
       test_numbers.push(start)
-      start ++
+      start += 1
     end
     
     #loop through test numbers array to see if prime
