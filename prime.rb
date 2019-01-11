@@ -1,4 +1,5 @@
 boolean = prime?(6)
+puts boolean
 
 def prime?(num)
   
