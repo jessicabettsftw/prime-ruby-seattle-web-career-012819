@@ -24,8 +24,3 @@ def prime?(num)
     return false
   end
 end
-
-boolean = prime?(6)
-puts boolean
-
-
