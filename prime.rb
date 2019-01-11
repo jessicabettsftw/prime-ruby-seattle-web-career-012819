@@ -7,7 +7,7 @@ def prime?(num)
     #array of numbers to test
     test_numbers = []
     start = 2
-    while start == mid
+    while start < (mid + 1)
       test_numbers.push(start)
       start ++
     end
