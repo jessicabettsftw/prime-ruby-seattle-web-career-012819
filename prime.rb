@@ -1,9 +1,8 @@
 def prime?(num)
   
   if (num > 3)
-    puts "test to see if prime"
     mid = num % 2
-    
+    puts "mid is #{mid}"
     #array of numbers to test
     test_numbers = []
     start = 2
