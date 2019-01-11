@@ -19,12 +19,11 @@ def prime?(num)
         return true
       end
     end
+    return false
   elsif num > 1 # 2&3 are prime
     return true
   
   else #negitive numbers are not prime
     return false
   end
-  
-  return false
 end
