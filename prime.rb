@@ -1,7 +1,7 @@
 def prime?(num)
   
   if (num > 3)
-    mid = num % 2
+    mid = num // 2
     puts "mid is #{mid}"
     #array of numbers to test
     test_numbers = []
