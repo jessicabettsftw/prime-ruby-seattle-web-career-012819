@@ -2,7 +2,6 @@ def prime?(num)
   
   if num > 3
     #test to see if prime
-    num = 4
     mid = num % 2
     num_range = (1 .. mid)
     
