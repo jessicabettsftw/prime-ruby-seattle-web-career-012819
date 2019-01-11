@@ -24,7 +24,6 @@ def prime?(num)
     return false
   elsif (num > 1)
     return true
-  
   else 
     return false
   end
