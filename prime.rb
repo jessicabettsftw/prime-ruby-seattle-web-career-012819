@@ -2,7 +2,10 @@ def prime?(num)
   
   if num > 3
     #test to see if prime
-  
+    num = 4
+    mid = num % 2
+    num_range = (1 .. mid)
+    puts mid
   elsif num > 1 # 2&3 are prime
     return true
   
