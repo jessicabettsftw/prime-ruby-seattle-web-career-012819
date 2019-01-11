@@ -20,7 +20,7 @@ def prime?(num)
       end
     end
     return false
-  elsif (num > 1)
+  elsif (num == 2 || num == 3)
     return true
   else 
     return false
