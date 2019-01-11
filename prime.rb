@@ -22,10 +22,10 @@ def prime?(num)
       end
     end
     return false
-  elsif (num > 1) # 2&3 are prime
+  elsif (num > 1)
     return true
   
-  else #negitive numbers are not prime
+  else 
     return false
   end
 end
