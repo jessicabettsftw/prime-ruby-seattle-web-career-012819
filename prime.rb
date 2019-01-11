@@ -16,10 +16,10 @@ def prime?(num)
     test_numbers.each do |test_num|
       if (num % test_num) == 0
         #its prime
-        return true
+        return false
       end
     end
-    return false
+    return true
   elsif (num == 2 || num == 3)
     return true
   else 
