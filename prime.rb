@@ -27,6 +27,6 @@ def prime?(num)
   end
 end
 
-boolean = prime?(3)
+boolean = prime?(5)
 puts boolean
 
